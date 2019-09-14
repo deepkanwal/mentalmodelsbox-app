@@ -1,0 +1,96 @@
+* {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Asap', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+body {
+  background-color: #FBF9F9 !important;
+}
+
+hr {
+  border-width: 3px;
+}
+
+#nprogress .bar {
+  background: #4a4a48 !important;
+}
+
+.main-color {
+  background-color: #FBF9F9 !important;
+}
+
+.main-font {
+  font-family: 'Asap', sans-serif !important;
+}
+
+.row {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.box-effect {
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 3px 3px black;
+  height: 44px;
+  font-size: 18px;
+  font-family: 'Asap', sans-serif !important;
+  font-weight: 500 !important;
+  background: white;
+
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s;
+}
+
+.box-effect:hover {
+  box-shadow: 5px 5px black;
+}
+
+input {
+  padding: 7px;
+  border: 2px solid rgb(53, 53, 53);
+  height: 44px;
+
+  width: 100%;
+
+  border-radius: 6px;
+  background: white;
+
+  font-family: 'Asap', sans-serif !important;
+  font-size: 18px;
+}
+
+textarea:focus,
+input:focus .uneditable-input:focus {
+  border: 0 !important;
+}

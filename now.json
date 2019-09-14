@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next@canary",
+      "config": {
+        "maxLambdaSize": "10mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/model/(?<id>[^/]+)$",
+      "dest": "/model?id=$id"
+    },
+    {
+      "src": "/explore/(?<tag>[^/]+)$",
+      "dest": "/explore?tag=$tag"
+    }
+  ]
+}
