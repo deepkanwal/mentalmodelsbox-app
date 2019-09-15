@@ -36,6 +36,11 @@ Anytime you make changes to model YAML files, re-run the `generate-data` script.
 
 Model data is stored in YAML files using Markdown. The `generate-data` script is used to convert these files to a single JSON file. The `upload-data` script is used to upload this file to S3.
 
+Note: to ignore these changes to this generated file in git, run the below command. Ideally, the checked-in placeholder `data.json` file should be conditionally imported and removed from the repo but I haven't gotten around to this yet.
+```
+git update-index --skip-worktree generated/data.json
+```
+
 ## Style
 
 This repo uses [Prettier](https://prettier.io) with the following settings:
@@ -45,3 +50,7 @@ This repo uses [Prettier](https://prettier.io) with the following settings:
 * Semicolons 
 * Single Quotes `'` 
 * JSX Bracket Same Line
+
+## About
+
+I built this as a quick project to learn more about frontend development using React and next.js as well as about mental models. After posting this on [Hacker News](https://news.ycombinator.com/item?id=20614449), a few folks had asked about APIs for the model data or about building additional features. While I don't see myself updating this app on a regular cadence, hopefully the source and model data is useful for folks who were interested. Please feel free to contribute or fork for your own projects!
