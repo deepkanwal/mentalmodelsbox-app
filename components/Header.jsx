@@ -61,6 +61,7 @@ class Header extends Component {
         <div className='header-links'>
           <Button content='weekly' href='/weekly' fontSize={'18px'} />
           <Button content='explore' href='/explore' fontSize={'18px'} />
+          <Button content='contribute' href='/contribute' fontSize={'18px'} />
         </div>
         <style jsx>{`
           .header-links {
