@@ -1,7 +1,7 @@
 # Mental Models Box (App)
 This is the repository for the front-end for the [mentalmodelsbox.com](https://www.mentalmodelsbox.com) website. It's a basic [next.js](https://nextjs.org/) app deployed using [Zeit Now](https://zeit.co/). Data for the models is served using S3. 
 
-A seperate [data repository](https://github.com/deepkanwal/mentalmodelsbox-data/) is used to manage the actual mental model data.
+A seperate [data repository](https://github.com/deepkanwal/mentalmodelsbox-data/) is used to manage the actual mental model data. Please use the data repo if you'd like to contribute new models or update existing ones.
 
 ## Local Setup
 
