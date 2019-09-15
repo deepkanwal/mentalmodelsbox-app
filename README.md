@@ -5,19 +5,21 @@ A seperate [data repository](https://github.com/deepkanwal/mentalmodelsbox-data/
 
 ## Local Setup
 
-After cloning, run the app locally using:
-
+After cloning, install dependencies using:
+```
+$ yarn install
+```
+Then, run the app using: 
 ```
 $ yarn dev
 ```
-
 Then, visit `http://localhost:3000` in your browser.
 
 ## Testing Model Changes
 
 Changes to the model data (e.g. adding new models, modifing existing ones) can be tested by using local data instead of the production S3 file. To do this:
 
-1. Install the `mental-models-box-data` submodule. 
+1. Install the `mentalmodelsbox-data` submodule. 
 ```
 $ git submodule update --init
 ```
