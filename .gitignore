@@ -1,0 +1,11 @@
+# build output
+generated
+dist
+.next
+
+# dependencies
+node_modules
+test/node_modules
+
+# misc
+.DS_Store
