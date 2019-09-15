@@ -36,11 +36,6 @@ Anytime you make changes to model YAML files, re-run the `generate-data` script.
 
 Model data is stored in YAML files using Markdown. The `generate-data` script is used to convert these files to a single JSON file. The `upload-data` script is used to upload this file to S3.
 
-Note: to ignore these changes to this generated file in git, run the below command. Ideally, the checked-in placeholder `data.json` file should be conditionally imported and removed from the repo but I haven't gotten around to this yet.
-```
-git update-index --skip-worktree generated/data.json
-```
-
 ## Style
 
 This repo uses [Prettier](https://prettier.io) with the following settings:
