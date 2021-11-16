@@ -20,7 +20,7 @@
     "upload-data": "node ./scripts/upload-data.js"
   },
   "devDependencies": {
-    "aws-sdk": "^2.528.0",
+    "aws-sdk": "^2.814.0",
     "yamljs": "^0.3.0"
   }
 }
