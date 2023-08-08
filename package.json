@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
