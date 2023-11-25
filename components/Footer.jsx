@@ -10,6 +10,8 @@ class Footer extends Component {
           <br />
           <Linked href='/about'>About</Linked>
           &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+          <Linked href='/contribute'>Contribute</Linked>
+          &nbsp;&nbsp;&bull;&nbsp;&nbsp;
           <Linked href='/privacy'>Privacy</Linked>
           <br />
         </footer>
@@ -18,7 +20,7 @@ class Footer extends Component {
           .footer {
             clear: both;
             margin-top: 12px;
-            margin-bottom: 12px;
+            margin-bottom: 28px;
             text-align: center;
           }
         `}</style>

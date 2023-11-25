@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 import { SITE_TITLE } from '../misc/constants.js';
+import Link from 'next/link.js';
 
 class AboutPage extends Component {
   render() {
@@ -34,6 +35,12 @@ class AboutPage extends Component {
               If there's a model you find interesting, we'd encourage you to research and read more
               about it. In the interest of brevity and conciseness, we do omit a lot of interesting
               details and history.
+            </p>
+          </Row>
+          <Row noGutters>
+            <h2>Contribute</h2>
+            <p>
+              The Mental Models Box website and model data is open-source. For details, visit the <Link href='/contribute'>contribute</Link> page.
             </p>
           </Row>
           <Row noGutters>

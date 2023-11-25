@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Button from '../components/Button';
 import { SITE_TITLE } from '../misc/constants.js';
 
-class AboutPage extends Component {
+class ContributePage extends Component {
   render() {
     return (
       <Fragment>
@@ -98,4 +98,4 @@ class AboutPage extends Component {
   }
 }
 
-export default AboutPage;
+export default ContributePage;
