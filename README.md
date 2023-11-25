@@ -1,7 +1,7 @@
 # Mental Models Box (App)
 This is the repository for the front-end for the [mentalmodelsbox.com](https://www.mentalmodelsbox.com) website. It's a basic [next.js](https://nextjs.org/) app deployed using [Zeit Now](https://zeit.co/). Data for the models is served using S3. 
 
-A seperate [data repository](https://github.com/deepkanwal/mentalmodelsbox-data/) is used to manage the actual mental model data.
+A seperate [data repository](https://github.com/deepkanwal/mentalmodelsbox-data/) is used to manage the actual mental model data. Please use the data repo if you'd like to contribute new models or update existing ones.
 
 ## Local Setup
 
@@ -35,11 +35,6 @@ const USE_PROD_DATA = false;
 Anytime you make changes to model YAML files, re-run the `generate-data` script. 
 
 Model data is stored in YAML files using Markdown. The `generate-data` script is used to convert these files to a single JSON file. The `upload-data` script is used to upload this file to S3.
-
-Note: to ignore these changes to this generated file in git, run the below command. Ideally, the checked-in placeholder `data.json` file should be conditionally imported and removed from the repo but I haven't gotten around to this yet.
-```
-git update-index --skip-worktree generated/data.json
-```
 
 ## Style
 
