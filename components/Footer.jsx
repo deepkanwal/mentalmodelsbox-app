@@ -13,6 +13,8 @@ class Footer extends Component {
           <Linked href='/contribute'>Contribute</Linked>
           &nbsp;&nbsp;&bull;&nbsp;&nbsp;
           <Linked href='/privacy'>Privacy</Linked>
+          &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+          <Linked href='https://twitter.com/mentalmodelsbox'>Twitter</Linked>
           <br />
         </footer>
 

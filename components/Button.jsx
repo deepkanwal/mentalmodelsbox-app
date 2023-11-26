@@ -54,7 +54,7 @@ const Button = ({
     <style jsx>{`
       .button-container {
         padding: 6px 8px 6px 8px;
-        display: inline;
+        display: inline-block;
         font-size: ${fontSize};
         font-weight: 500 !important;
       }

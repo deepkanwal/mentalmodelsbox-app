@@ -51,17 +51,6 @@ class ModelPage extends Component {
           </div>
           <br />
           <MentalModelCell model={model} />
-          <div className='w-signup-twitter'>
-            <div>
-              <Button
-                icon='fab fa-twitter'
-                content='Follow us on Twitter for updates.'
-                fontSize='16px'
-                placeIconOnLeft
-                href='https://twitter.com/mentalmodelsbox'
-              />
-            </div>
-          </div>
         </Container>
         <style jsx>
           {`
